@@ -8,12 +8,26 @@
     <title>Etch-a-Sketch</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+    </style>
 </head>
 
 <body>
-
     <div class="container">
+        <h1>Pixel Artist</h1>
 
+        <button id="resetButton">Change canvas resolution</button>
+        <p id="currentRes">Current resolution: 16 by 16</p>
+        <div class="colorButtonsContainer">
+            <button class="colorButton" id="pixelBlack"></button>
+            <button class="colorButton" id="pixelRed"></button>
+            <button class="colorButton" id="pixelGreen"></button>
+            <button class="colorButton" id="pixelBlue"></button>
+        </div>
+        <div class="canvas">
+        </div>
     </div>
 </body>
 
